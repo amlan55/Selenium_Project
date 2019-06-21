@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test-Smoke(failed)">
+    <classes>
+      <class name="TestngFeatures.DemoSoftAssertion">
+        <methods>
+          <include name="demo"/>
+        </methods>
+      </class> <!-- TestngFeatures.DemoSoftAssertion -->
+      <class name="TestngFeatures.DemoExecutionSequence">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestngFeatures.DemoExecutionSequence -->
+      <class name="TestngFeatures.DemoAssertEquals">
+        <methods>
+          <include name="test3"/>
+          <include name="test4"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- TestngFeatures.DemoAssertEquals -->
+      <class name="TestngFeatures.DemoAssertion">
+        <methods>
+          <include name="test2"/>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- TestngFeatures.DemoAssertion -->
+    </classes>
+  </test> <!-- Test-Smoke(failed) -->
+</suite> <!-- Failed suite [Suite] -->

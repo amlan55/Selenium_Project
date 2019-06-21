@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+	<test name="Test-Smoke">
+		<classes>
+			<class name="TestngFeatures.DemoSoftAssertion" />
+			
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Test-Regression">
+		<classes>
+			
+			<class name="TestngFeatures.DemoAssertion" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

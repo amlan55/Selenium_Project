@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="6" failed="0" total="6" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="83268" started-at="2019-06-20T06:28:34Z" finished-at="2019-06-20T06:29:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="83268" started-at="2019-06-20T06:28:34Z" finished-at="2019-06-20T06:29:57Z">
+      <class name="CaseStudy.CaseStudyTestMe">
+        <test-method status="FAIL" signature="beforeTest()[pri:0, instance:CaseStudy.CaseStudyTestMe@685cb137]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-06-20T11:58:34Z" finished-at="2019-06-20T11:58:34Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: unable to discover open pages
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'P5-GKR0N62', ip: '10.253.180.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162-ea'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00DE7DF3+1474035]
+	Ordinal0 [0x00D607D1+919505]
+	Ordinal0 [0x00CFCB43+510787]
+	Ordinal0 [0x00C91B0F+72463]
+	Ordinal0 [0x00C8E3F3+58355]
+	Ordinal0 [0x00CB0CE4+199908]
+	Ordinal0 [0x00CB069D+198301]
+	Ordinal0 [0x00CAEECB+192203]
+	Ordinal0 [0x00C95FF6+90102]
+	Ordinal0 [0x00C9765A+95834]
+	Ordinal0 [0x00C97554+95572]
+	GetHandleVerifier [0x00F4231C+1249612]
+	GetHandleVerifier [0x00E91575+525221]
+	GetHandleVerifier [0x00E91310+524608]
+	Ordinal0 [0x00DF5D28+1531176]
+	GetHandleVerifier [0x00E91D4A+527226]
+	Ordinal0 [0x00D775F6+1013238]
+	Ordinal0 [0x00D7746F+1012847]
+	Ordinal0 [0x00D8365B+1062491]
+	Ordinal0 [0x00D8379F+1062815]
+	Ordinal0 [0x00D82745+1058629]
+	BaseThreadInitThunk [0x74FA0419+25]
+	RtlGetAppContainerNamedObjectPath [0x774D662D+237]
+	RtlGetAppContainerNamedObjectPath [0x774D65FD+189]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: unable to discover open pages
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'P5-GKR0N62', ip: '10.253.180.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162-ea'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00DE7DF3+1474035]
+	Ordinal0 [0x00D607D1+919505]
+	Ordinal0 [0x00CFCB43+510787]
+	Ordinal0 [0x00C91B0F+72463]
+	Ordinal0 [0x00C8E3F3+58355]
+	Ordinal0 [0x00CB0CE4+199908]
+	Ordinal0 [0x00CB069D+198301]
+	Ordinal0 [0x00CAEECB+192203]
+	Ordinal0 [0x00C95FF6+90102]
+	Ordinal0 [0x00C9765A+95834]
+	Ordinal0 [0x00C97554+95572]
+	GetHandleVerifier [0x00F4231C+1249612]
+	GetHandleVerifier [0x00E91575+525221]
+	GetHandleVerifier [0x00E91310+524608]
+	Ordinal0 [0x00DF5D28+1531176]
+	GetHandleVerifier [0x00E91D4A+527226]
+	Ordinal0 [0x00D775F6+1013238]
+	Ordinal0 [0x00D7746F+1012847]
+	Ordinal0 [0x00D8365B+1062491]
+	Ordinal0 [0x00D8379F+1062815]
+	Ordinal0 [0x00D82745+1058629]
+	BaseThreadInitThunk [0x74FA0419+25]
+	RtlGetAppContainerNamedObjectPath [0x774D662D+237]
+	RtlGetAppContainerNamedObjectPath [0x774D65FD+189]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:189)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:176)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:131)
+	at CaseStudy.CaseStudyTestMe.beforeTest(CaseStudyTestMe.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:624)
+	at org.testng.TestRunner.run(TestRunner.java:592)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="testmeapplogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:CaseStudy.CaseStudyTestMe@685cb137]" name="testmeapplogin" duration-ms="7" started-at="2019-06-20T11:59:57Z" data-provider="credentials" finished-at="2019-06-20T11:59:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lalitha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Andhra Bank]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pass@456]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Trans@456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmeapplogin -->
+        <test-method status="SKIP" signature="testmeapplogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:CaseStudy.CaseStudyTestMe@685cb137]" name="testmeapplogin" duration-ms="3" started-at="2019-06-20T11:59:57Z" data-provider="credentials" finished-at="2019-06-20T11:59:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lalitha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[HDFC Bank]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123457]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pass@457]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Trans@457]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmeapplogin -->
+        <test-method status="SKIP" signature="testmeapplogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:CaseStudy.CaseStudyTestMe@685cb137]" name="testmeapplogin" duration-ms="2" started-at="2019-06-20T11:59:57Z" data-provider="credentials" finished-at="2019-06-20T11:59:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lalitha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IDBI Bank]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123458]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pass@458]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Trans@458]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmeapplogin -->
+        <test-method status="SKIP" signature="testmeapplogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:CaseStudy.CaseStudyTestMe@685cb137]" name="testmeapplogin" duration-ms="2" started-at="2019-06-20T11:59:57Z" data-provider="credentials" finished-at="2019-06-20T11:59:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lalitha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[UCO Bank]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123460]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pass@460]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Trans@460]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmeapplogin -->
+        <test-method status="SKIP" signature="testmeapplogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:CaseStudy.CaseStudyTestMe@685cb137]" name="testmeapplogin" duration-ms="0" started-at="2019-06-20T11:59:57Z" data-provider="credentials" finished-at="2019-06-20T11:59:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lalitha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[State Bank Of India]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123460]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pass@556]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Trans@589]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmeapplogin -->
+        <test-method status="SKIP" signature="makepayment(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:CaseStudy.CaseStudyTestMe@685cb137]" name="makepayment" duration-ms="0" started-at="2019-06-20T11:59:57Z" finished-at="2019-06-20T11:59:57Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method makepayment requires 3 parameters but 0 were supplied in the @Test annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method makepayment requires 3 parameters but 0 were supplied in the @Test annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:193)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:129)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:378)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:488)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1240)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:980)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1070)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makepayment -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:CaseStudy.CaseStudyTestMe@685cb137]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-06-20T11:59:57Z" finished-at="2019-06-20T11:59:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- CaseStudy.CaseStudyTestMe -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
